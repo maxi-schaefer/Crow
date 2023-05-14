@@ -67,5 +67,5 @@ Empyrean is licensed under the <a href="https://mit-license.org/">MIT License</a
 
 ## Errors?
 
--   Make an [issue](https://github.com/maxi-schaefer/crow-stealer/issues)
+-   Make an [issue](https://github.com/maxi-schaefer/crow/issues)
 -   Join the [Discord](https://discord.gg/Y8kEJJ7Jmz)
