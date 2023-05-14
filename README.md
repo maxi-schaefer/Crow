@@ -1,14 +1,14 @@
 <img src="assets/banner.png" width="100%" height="100%">
 
 <div align="center">
-    <img src="https://img.shields.io/github/languages/top/maxi-schaefer/crow-stealer?color=943dff">
-    <img src="https://img.shields.io/github/stars/maxi-schaefer/crow-stealer?color=943dff&logoColor=%23000000">
+    <img src="https://img.shields.io/github/languages/top/maxi-schaefer/crow?color=943dff">
+    <img src="https://img.shields.io/github/stars/maxi-schaefer/crow?color=943dff&logoColor=%23000000">
     <br>
-    <img src="https://img.shields.io/github/commit-activity/w/maxi-schaefer/crow-stealer?color=943dff"> 
-    <img src="https://img.shields.io/github/last-commit/maxi-schaefer/crow-stealer?color=943dff&logoColor=%23000000">
+    <img src="https://img.shields.io/github/commit-activity/w/maxi-schaefer/crow?color=943dff"> 
+    <img src="https://img.shields.io/github/last-commit/maxi-schaefer/crow?color=943dff&logoColor=%23000000">
     <br>
-    <img src="https://img.shields.io/github/issues/maxi-schaefer/crow-stealer?color=943dff&logoColor=%23000000">
-    <img src="https://img.shields.io/github/issues-closed/maxi-schaefer/crow-stealer?color=943dff&logoColor=%23000000">
+    <img src="https://img.shields.io/github/issues/maxi-schaefer/crow?color=943dff&logoColor=%23000000">
+    <img src="https://img.shields.io/github/issues-closed/maxi-schaefer/crow?color=943dff&logoColor=%23000000">
     <br>
 </div>
 <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
@@ -47,7 +47,7 @@
 
 ### Setup
 
-1. [Download source code zip](https://github.com/maxi-schaefer/crow-stealer/archive/refs/heads/main.zip)
+1. [Download source code zip](https://github.com/maxi-schaefer/crow/archive/refs/heads/main.zip)
 2. Extract zip
 3. Run `install_python.bat` if you don't have python installed
 4. Run the builder by double clicking the `build.bat` file
