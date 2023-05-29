@@ -63,10 +63,6 @@
 4. Run the builder by double clicking the `build.bat` file
 5. Follow instructions in builder and your exe will be found in the `dist` folder under the name `main.exe`
 
-## License
-
-Empyrean is licensed under the <a href="https://mit-license.org/">MIT License</a>.
-
 ## Errors?
 
 -   Make an [issue](https://github.com/maxi-schaefer/crow/issues)
